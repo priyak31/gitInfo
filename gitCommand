@@ -1,0 +1,8 @@
+Create local folder in our machin
+Initialize git into that folder by command git init
+clone the repo by command git clone https://github.com/priyak31/java-practice.git ur repo folder visible.
+create branch by command git branch <branchname>
+git pull for tracking branches
+git checkout master
+To add changes use git add <filename> Or  To add multiple files used git add .
+
