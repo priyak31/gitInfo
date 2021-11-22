@@ -1,9 +1,19 @@
-Create local folder in our machin
-Initialize git into that folder by command git init
-clone the repo by command git clone https://github.com/priyak31/java-practice.git ur repo folder visible.
-create branch by command git branch <branchname>
-git pull for tracking branches and geting updated code into our local
-git checkout master for switching branches
-To add changes use git add <filename> Or  To add multiple files used git add .
-git status for getting current status of updated file
+-Create local folder in our machin
+-Initialize git into that folder by command git init
+-clone the repo by command git clone https://github.com/priyak31/java-practice.git ur repo folder visible.
+-create branch by command git branch <branchname>
+-git pull for tracking branches and geting updated code into our local
+-git checkout master for switching branches
+-To add changes use git add <filename> Or  To add multiple files used git add .
+-git status for getting current status of updated file
+
+-Another way to create branch is git checkut -b <branch name>
+-git log to getting all commit history of specific branch
+-git checkout <commitid> to swith to previous commit
+-git push origin master  push code in origin of master branch
+-To push new brnch use git push origin <new branch>
+
+youtube linkfor reference  https://www.youtube.com/watch?v=uaeKhfhYE0U&t=1610s
+
+
 
