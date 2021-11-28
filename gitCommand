@@ -52,6 +52,8 @@ git diff --staged
 ======================================================================================================================
 -to commit changes 
 git commit -m "commitstatement"
+ -to skip staging area or skip git add command and directly commit files
+ git commit -a -m "commitnew"
 ======================================================================================================================
 -push code in origin of master branch
 git push origin master  
