@@ -41,6 +41,8 @@ git status -s
 ======================================================================================================================
 -to getting all commit history of specific branch
 git log
+-to exit log command prompt 
+type WQ: and Enter
 -showing previous 1 commit ids
 git log -p -1
 ======================================================================================================================
