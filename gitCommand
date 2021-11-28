@@ -9,6 +9,11 @@ git clone https://github.com/priyak31/java-practice.git ur repo folder visible.
 git branch <branchname>
 -switch to new branch and create
 git branch -b <newbranch>
+-to show all branches and * mark as your current branch with commit details
+git branch -v
+-to show all branches and * mark as your current branch without commit details
+git branch
+
 ======================================================================================================================
 -for tracking branches and geting updated code into our local
 git pull 
@@ -63,6 +68,16 @@ git push origin master
 -To push new brnch use 
 git push origin <new branch>
 ======================================================================================================================
+-Merge branch
+ git branch --merged
+-see not merge branch
+ git branch --no-merged
+ ======================================================================================================================
+ -delete branch with error for first need to merge then delete
+ git branch -d <branchname>
+ -delete branch without error for first need to merge then delete
+ git branch -D <branchname>
+ ======================================================================================================================
 youtube linkfor reference  https://www.youtube.com/watch?v=uaeKhfhYE0U&t=1610s
 
 
