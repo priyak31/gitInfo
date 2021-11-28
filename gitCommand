@@ -1,40 +1,62 @@
 -Create local folder in our machin
 -Initialize git into that folder by command 
 git init
-
+======================================================================================================================
 -clone the repo by command 
 git clone https://github.com/priyak31/java-practice.git ur repo folder visible.
-
+======================================================================================================================
 -create branch by command
 git branch <branchname>
-
--git pull 
-for tracking branches and geting updated code into our local
-
--git checkout master 
-for switching branches
-
--To add changes use git add <filename> Or  To add multiple files used 
-git add .
-
--git status 
-for getting current status of updated file
-
+======================================================================================================================
+-for tracking branches and geting updated code into our local
+git pull 
+======================================================================================================================
+-for switching branches
+git checkout master 
+-getting last commit file version
+git checkout <filenamme>
+-to swith to previous commit
+ git checkout <commitid> 
 -Another way to create branch is 
-git checkut -b <branch name>
+git checkout -b <branch name>
+-match all files from previous one
+ git checkout -f
+======================================================================================================================
+-To add changes in work directory use 
+git add <filename> 
+To add multiple files used 
+-git add .
+======================================================================================================================
+-ready to commit
+git stage 
+======================================================================================================================
+-for getting current status of updated file
+git status 
+-shows file working directory or staging status as M
+green color M defines file modified in staging area(after add)
+normal m defines file modified in working area(before add)
+git status -s
+======================================================================================================================
+-to getting all commit history of specific branch
+git log
+-showing previous 1 commit ids
+git log -p -1
+======================================================================================================================
 
--git log 
-to getting all commit history of specific branch
-
--git checkout <commitid> 
-to swith to previous commit
-
--git push origin master  
-push code in origin of master branch
-
+-comapre working dire to staging directory if no diff found it shows nothing
+git diff
+-comapre last staging
+git diff --staged
+======================================================================================================================
+-to commit changes 
+git commit -m "commitstatement"
+======================================================================================================================
+-push code in origin of master branch
+git push origin master  
+======================================================================================================================
 -To push new brnch use 
 git push origin <new branch>
-
+======================================================================================================================
 youtube linkfor reference  https://www.youtube.com/watch?v=uaeKhfhYE0U&t=1610s
 
 
