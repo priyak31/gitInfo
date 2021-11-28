@@ -7,6 +7,8 @@ git clone https://github.com/priyak31/java-practice.git ur repo folder visible.
 ======================================================================================================================
 -create branch by command
 git branch <branchname>
+-switch to new branch and create
+git branch -b <newbranch>
 ======================================================================================================================
 -for tracking branches and geting updated code into our local
 git pull 
